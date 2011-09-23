@@ -1,0 +1,13 @@
+README
+
+Simple UDP -> TCP proxy
+
+proxy.js
+to launch proxy.js two arguments will need to be provided. The first argument is the udp port to listen on. The second argument is tcp port to forward on.
+
+node proxy.js [udp port] [tcp port]
+
+tcpListener.js
+an addition script that can be used to test proxy. can be lauched with a single command line argument with the tcp port to listen on.
+
+node tcpListener.js [tcp port]
